@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home Page">
+    <meta name="author" content="Yuqing Yang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link href="./css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="./css/login.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.js" type="text/javascript" rel="script" defer></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript" rel="script" async></script>
+    <script src="js/login.js" type="text/javascript" rel="script" async></script>
+</head>
+<body>
+
+<div class="container-fluid h-100 d-flex justify-content-center align-items-center">
+    <div class="row">
+        <form class="col-12">
+            <div>
+                <label class="form-label" for="account">Account</label>
+                <input class="form-control" id="account" type="text" placeholder="Account">
+                <div class="form-text">First character must be initialized.</div>
+            </div>
+            <div>
+                <label class="form-label" for="password">Password</label>
+                <input class="form-control" id="password" type="password" placeholder="Password">
+                <div class="form-text">Password can only contain lower case characters and numbers.</div>
+            </div>
+            <button class="btn btn-info" id="submitBtn" type="button">Log In</button>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
